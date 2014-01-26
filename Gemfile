@@ -9,6 +9,10 @@ group :development do
 	gem 'rspec-rails','~>2.9.0'
 end
 
+group :test do
+	gem 'capybara', '1.1.2'
+end
+
 group :production do
 	gem 'pg'
 end
